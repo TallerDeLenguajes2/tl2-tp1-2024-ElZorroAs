@@ -1,0 +1,15 @@
+C:\Users\fedea\OneDrive\Escritorio\TallerII\tl2-tp1-2024-ElZorroAs\bin\Debug\net8.0\tl2-tp1-2024-ElZorroAs.exe
+C:\Users\fedea\OneDrive\Escritorio\TallerII\tl2-tp1-2024-ElZorroAs\bin\Debug\net8.0\tl2-tp1-2024-ElZorroAs.deps.json
+C:\Users\fedea\OneDrive\Escritorio\TallerII\tl2-tp1-2024-ElZorroAs\bin\Debug\net8.0\tl2-tp1-2024-ElZorroAs.runtimeconfig.json
+C:\Users\fedea\OneDrive\Escritorio\TallerII\tl2-tp1-2024-ElZorroAs\bin\Debug\net8.0\tl2-tp1-2024-ElZorroAs.dll
+C:\Users\fedea\OneDrive\Escritorio\TallerII\tl2-tp1-2024-ElZorroAs\bin\Debug\net8.0\tl2-tp1-2024-ElZorroAs.pdb
+C:\Users\fedea\OneDrive\Escritorio\TallerII\tl2-tp1-2024-ElZorroAs\obj\Debug\net8.0\tl2-tp1-2024-ElZorroAs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fedea\OneDrive\Escritorio\TallerII\tl2-tp1-2024-ElZorroAs\obj\Debug\net8.0\tl2-tp1-2024-ElZorroAs.AssemblyInfoInputs.cache
+C:\Users\fedea\OneDrive\Escritorio\TallerII\tl2-tp1-2024-ElZorroAs\obj\Debug\net8.0\tl2-tp1-2024-ElZorroAs.AssemblyInfo.cs
+C:\Users\fedea\OneDrive\Escritorio\TallerII\tl2-tp1-2024-ElZorroAs\obj\Debug\net8.0\tl2-tp1-2024-ElZorroAs.csproj.CoreCompileInputs.cache
+C:\Users\fedea\OneDrive\Escritorio\TallerII\tl2-tp1-2024-ElZorroAs\obj\Debug\net8.0\tl2-tp1-2024-ElZorroAs.sourcelink.json
+C:\Users\fedea\OneDrive\Escritorio\TallerII\tl2-tp1-2024-ElZorroAs\obj\Debug\net8.0\tl2-tp1-2024-ElZorroAs.dll
+C:\Users\fedea\OneDrive\Escritorio\TallerII\tl2-tp1-2024-ElZorroAs\obj\Debug\net8.0\refint\tl2-tp1-2024-ElZorroAs.dll
+C:\Users\fedea\OneDrive\Escritorio\TallerII\tl2-tp1-2024-ElZorroAs\obj\Debug\net8.0\tl2-tp1-2024-ElZorroAs.pdb
+C:\Users\fedea\OneDrive\Escritorio\TallerII\tl2-tp1-2024-ElZorroAs\obj\Debug\net8.0\tl2-tp1-2024-ElZorroAs.genruntimeconfig.cache
+C:\Users\fedea\OneDrive\Escritorio\TallerII\tl2-tp1-2024-ElZorroAs\obj\Debug\net8.0\ref\tl2-tp1-2024-ElZorroAs.dll
