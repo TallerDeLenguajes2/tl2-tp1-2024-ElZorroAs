@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fedea\\OneDrive\\Escritorio\\TallerII\\tl2-tp1-2024-ElZorroAs\\tl2-tp1-2024-ElZorroAs.csproj": {}
+    "C:\\Users\\ElZorroAs\\Desktop\\Taller2\\tl2-tp1-2024-ElZorroAs\\tl2-tp1-2024-ElZorroAs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fedea\\OneDrive\\Escritorio\\TallerII\\tl2-tp1-2024-ElZorroAs\\tl2-tp1-2024-ElZorroAs.csproj": {
+    "C:\\Users\\ElZorroAs\\Desktop\\Taller2\\tl2-tp1-2024-ElZorroAs\\tl2-tp1-2024-ElZorroAs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fedea\\OneDrive\\Escritorio\\TallerII\\tl2-tp1-2024-ElZorroAs\\tl2-tp1-2024-ElZorroAs.csproj",
+        "projectUniqueName": "C:\\Users\\ElZorroAs\\Desktop\\Taller2\\tl2-tp1-2024-ElZorroAs\\tl2-tp1-2024-ElZorroAs.csproj",
         "projectName": "tl2-tp1-2024-ElZorroAs",
-        "projectPath": "C:\\Users\\fedea\\OneDrive\\Escritorio\\TallerII\\tl2-tp1-2024-ElZorroAs\\tl2-tp1-2024-ElZorroAs.csproj",
-        "packagesPath": "C:\\Users\\fedea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fedea\\OneDrive\\Escritorio\\TallerII\\tl2-tp1-2024-ElZorroAs\\obj\\",
+        "projectPath": "C:\\Users\\ElZorroAs\\Desktop\\Taller2\\tl2-tp1-2024-ElZorroAs\\tl2-tp1-2024-ElZorroAs.csproj",
+        "packagesPath": "C:\\Users\\ElZorroAs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ElZorroAs\\Desktop\\Taller2\\tl2-tp1-2024-ElZorroAs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fedea\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ElZorroAs\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
