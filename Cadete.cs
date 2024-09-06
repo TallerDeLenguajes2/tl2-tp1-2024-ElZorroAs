@@ -21,7 +21,7 @@ public class Cadete
     private string Telefono;
     private List<Pedidos> ListadoPedidos;
 
-    public Cadete(int id, string nombre, string direccion, string telefono, List<Pedidos> listadoPedidos)
+    public Cadete(int id, string nombre, string direccion, string telefono)
     {
         Id1 = id;
         Nombre1 = nombre;
