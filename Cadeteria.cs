@@ -37,23 +37,28 @@ public class Cadeteria
         get => listadoCadetes;
         private set => listadoCadetes = value;
     }
- 
-    public void AsignarPedido(Cadete cadete, Pedidos pedido){
+
+    public void AsignarPedido(Cadete cadete, Pedidos pedido)
+    {
+        cadete.AgregarPedido(pedido);
+    }
+    public void ReasignarPedido(Cadete anterior, Cadete nuevo, Pedidos pedido)
+    {
 
     }
-    public void ReasignarPedido(Cadete anterior, Cadete nuevo, Pedidos pedido){
-
+    public void AgregarCadete(Cadete cadete)
+    {
+        ListadoCadetes.Add(cadete);
     }
-    public void AgregarCadete(Cadete cadete){
-
+    public void EliminarCadete(Cadete cadete)
+    {
+        ListadoCadetes.Remove(cadete);
     }
-    public void EliminarCadete(Cadete cadete){
-
-    }
-    public void EliminarPedido(Pedidos pedido){
-
-    }
-    public void GenerarInforme(){
-
+    public void EliminarPedido(Pedidos pedido)
+    {
+        foreach (var cadete in ListadoCadetes)
+        {
+            cadete.EliminarPedido(pedido);
+        }
     }
 }

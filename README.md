@@ -14,7 +14,6 @@ ReasignarPedido(Cadete anterior, Cadete nuevo, Pedidos pedido): Reasigna un pedi
 AgregarCadete(Cadete cadete): Añade un nuevo cadete a la cadetería.
 EliminarCadete(Cadete cadete): Elimina un cadete de la cadetería.
 EliminarPedido(Pedidos pedido): Elimina un pedido y el cliente asociado.
-GenerarInforme(): Genera un informe sobre la actividad de la cadetería.
 
 Cadete:
 
