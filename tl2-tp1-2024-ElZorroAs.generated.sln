@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tl2-tp1-2024-ElZorroAs", "tl2-tp1-2024-ElZorroAs.csproj", "{FCACD279-7C5C-4ED9-B187-BE7F83DC1C2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tl2-tp1-2024-ElZorroAs", "tl2-tp1-2024-ElZorroAs.csproj", "{99B97C2D-B1B1-4FF9-BF61-3F1AC0127F7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FCACD279-7C5C-4ED9-B187-BE7F83DC1C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FCACD279-7C5C-4ED9-B187-BE7F83DC1C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FCACD279-7C5C-4ED9-B187-BE7F83DC1C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FCACD279-7C5C-4ED9-B187-BE7F83DC1C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99B97C2D-B1B1-4FF9-BF61-3F1AC0127F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B97C2D-B1B1-4FF9-BF61-3F1AC0127F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B97C2D-B1B1-4FF9-BF61-3F1AC0127F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B97C2D-B1B1-4FF9-BF61-3F1AC0127F7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -29,4 +29,6 @@ public class Cliente
     public string Direcion1 { get => Direcion; set => Direcion = value; }
     public string Telefono1 { get => Telefono; set => Telefono = value; }
     public string DatosReferenciaDireccion1 { get => DatosReferenciaDireccion; set => DatosReferenciaDireccion = value; }
+
+    
 }

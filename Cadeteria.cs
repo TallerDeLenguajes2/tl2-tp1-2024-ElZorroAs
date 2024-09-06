@@ -37,4 +37,23 @@ public class Cadeteria
         get => listadoCadetes;
         private set => listadoCadetes = value;
     }
+ 
+    public void AsignarPedido(Cadete cadete, Pedidos pedido){
+
+    }
+    public void ReasignarPedido(Cadete anterior, Cadete nuevo, Pedidos pedido){
+
+    }
+    public void AgregarCadete(Cadete cadete){
+
+    }
+    public void EliminarCadete(Cadete cadete){
+
+    }
+    public void EliminarPedido(Pedidos pedido){
+
+    }
+    public void GenerarInforme(){
+
+    }
 }
