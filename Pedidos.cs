@@ -10,8 +10,9 @@ using System;
 
 namespace EspacioCadeteria;
 
-public enum Estado{
-    Proceso,Pendiente,Completado,Cancelado
+public enum Estado
+{
+    Proceso, Pendiente, Completado, Cancelado
 }
 public class Pedidos
 {
@@ -19,6 +20,7 @@ public class Pedidos
     private string Obs;
     private Cliente cliente;
     private Estado estado;
+    private Cadete cadete;
 
     public Pedidos(int nro, string obs, Cliente cliente, Estado estado)
     {
@@ -26,18 +28,21 @@ public class Pedidos
         Obs1 = obs;
         this.Cliente = cliente;
         this.Estado = estado;
+        this.Cadete = null;
     }
 
-    public int Nro1 { get => Nro;private set => Nro = value; }
-    public string Obs1 { get => Obs;private set => Obs = value; }
-    public Cliente Cliente { get => cliente;private set => cliente = value; }
-    public Estado Estado { get => estado;private set => estado = value; }
-
-    public void VerDireccionCliente(Cliente cliente){
+    public int Nro1 { get => Nro; private set => Nro = value; }
+    public string Obs1 { get => Obs; private set => Obs = value; }
+    public Cliente Cliente { get => cliente; private set => cliente = value; }
+    public Estado Estado { get => estado; private set => estado = value; }
+    public Cadete Cadete { get => cadete; private set => cadete = value; }
+    public void VerDireccionCliente(Cliente cliente)
+    {
         Console.WriteLine($"Cliente direccion: {cliente.Direcion1}");
     }
 
-    public void VerDatosCliente(Cliente cliente){
+    public void VerDatosCliente(Cliente cliente)
+    {
         Console.WriteLine($"Cliente nombre: {cliente.Nombre1}");
         Console.WriteLine($"Cliente telefono: {cliente.Telefono1}");
     }

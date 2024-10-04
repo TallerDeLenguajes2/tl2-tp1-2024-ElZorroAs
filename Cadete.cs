@@ -10,12 +10,12 @@ namespace EspacioCadeteria
         private string Nombre;
         private string Direccion;
         private string Telefono;
-        private List<Pedidos> ListadoPedidos;
+        
 
         public Cadete()
         {
             // Constructor vacío
-            ListadoPedidos = new List<Pedidos>(); // Inicializa la lista de pedidos
+            
         }
 
         public Cadete(int id, string nombre, string direccion, string telefono)
@@ -24,24 +24,15 @@ namespace EspacioCadeteria
             Nombre1 = nombre;
             Direccion1 = direccion;
             Telefono1 = telefono;
-            ListadoPedidos1 = new List<Pedidos>(); // Agregacion
+            
         }
 
         public int Id1 { get => Id; private set => Id = value; }
         public string Nombre1 { get => Nombre; private set => Nombre = value; }
         public string Direccion1 { get => Direccion; private set => Direccion = value; }
         public string Telefono1 { get => Telefono; private set => Telefono = value; }
-        public List<Pedidos> ListadoPedidos1 { get => ListadoPedidos; private set => ListadoPedidos = value; }
-
-        public double JornalACobrar(double montoPorPedido = 100)
-        {
-            if (ListadoPedidos == null || ListadoPedidos.Count == 0)
-                return 0;
-
-            // Contar solo los pedidos que están completados
-            int pedidosCompletados = ListadoPedidos.Count(pedido => pedido.Estado == Estado.Completado);
-            return pedidosCompletados * montoPorPedido;
-        }
+       
+        
 
         public void AgregarPedido(Pedidos pedido)
         {
