@@ -29,29 +29,40 @@ namespace EspacioCadeteria
             private set => listadoPedidos = value;
         }
 
-        public double JornalACobrar(int idCadete)
+        public void agregarPedido(Pedidos pedido)
         {
-            var pedidosDelCadete = ListadoPedidos.Where(p =>
-                p.Cadete != null && p.Cadete.Id == idCadete && p.Estado == Estado.Entregado
-            );
-            return pedidosDelCadete.Count() * 500;
+            ListadoPedidos.Add(pedido);
         }
+        public void eliminarPedido(Pedidos pedido)
+        {
+            ListadoPedidos.Remove(pedido);
+        }
+
         public void AsignarPedido(int idCadete, int nroPedido)
         {
-            var cadete = ListadoCadetes.FirstOrDefault(c => c.Id == idCadete);
-            var pedido = ListadoPedidos.FirstOrDefault(c => c.Nro == nroPedido);
+            var cadete = ListadoCadetes.FirstOrDefault(c => c.Id1 == idCadete);
+            var pedido = ListadoPedidos.FirstOrDefault(c => c.Nro1 == nroPedido);
             if (cadete != null && pedido != null)
             {
                 pedido.asignarCadete(cadete);
             }
         }
 
+        public double JornalACobrar(int idCadete)
+        {
+            var pedidosDelCadete = ListadoPedidos.Where(p =>
+                p.Cadete != null && p.Cadete.Id1 == idCadete && p.Estado == Estado.Completado
+            );
+            return pedidosDelCadete.Count() * 500;
+        }
+
+/*
         public void ReasignarPedido(Cadete anterior, Cadete nuevo, Pedidos pedido)
         {
             anterior.EliminarPedido(pedido);
             nuevo.AgregarPedido(pedido);
         }
-
+*/
         public void AgregarCadete(Cadete cadete)
         {
             ListadoCadetes.Add(cadete);

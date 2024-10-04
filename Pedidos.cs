@@ -51,4 +51,10 @@ public class Pedidos
     {
         this.Estado = nuevoEstado;
     }
+
+     public void asignarCadete(Cadete cadete)
+    {
+        this.Cadete = cadete;
+        this.Estado = Estado.Proceso;
+    }
 }
