@@ -4,9 +4,9 @@ using System.Linq;
 using System.Collections.Generic;
 namespace EspacioCadeteria;
 
-public class CargarCadeteria
+public class AccesoCSV : AccesoADatos
 {
-    public Cadeteria Cargar(string archivoCsvCadeteria, string archivoCsvCadete)
+    public override Cadeteria Cargar(string archivoCsvCadeteria, string archivoCsvCadete)
         {
             Cadeteria cadeteria = null;
             List<Cadete> listaCadetes = new List<Cadete>();

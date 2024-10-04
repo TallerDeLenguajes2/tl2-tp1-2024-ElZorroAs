@@ -1,0 +1,20 @@
+[
+    {
+        "Id1": 1,
+        "Nombre1": "Juan Pérez",
+        "Telefono1": "987654321",
+        "Direccion1": "Calle Falsa 123"
+    },
+    {
+        "Id1": 2,
+        "Nombre1": "María Gómez",
+        "Telefono1": "654321987",
+        "Direccion1": "Avenida Siempre Viva 742"
+    },
+    {
+        "Id1": 3,
+        "Nombre1": "Luis Rodríguez",
+        "Telefono1": "321654987",
+        "Direccion1": "Camino Real 456"
+    }
+]
