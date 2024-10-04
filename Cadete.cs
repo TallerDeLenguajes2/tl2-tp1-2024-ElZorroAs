@@ -21,6 +21,11 @@ public class Cadete
     private string Telefono;
     private List<Pedidos> ListadoPedidos;
 
+    public Cadete() 
+    {
+        // Constructor vacío
+    }
+    
     public Cadete(int id, string nombre, string direccion, string telefono)
     {
         Id1 = id;

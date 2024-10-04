@@ -44,7 +44,8 @@ public class Cadeteria
     }
     public void ReasignarPedido(Cadete anterior, Cadete nuevo, Pedidos pedido)
     {
-
+        anterior.EliminarPedido(pedido);
+        nuevo.AgregarPedido(pedido);
     }
     public void AgregarCadete(Cadete cadete)
     {
