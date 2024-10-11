@@ -36,6 +36,7 @@ public class Pedidos
     public Cliente Cliente { get => cliente; private set => cliente = value; }
     public Estado Estado { get => estado; private set => estado = value; }
     public Cadete Cadete { get => cadete; private set => cadete = value; }
+    
     public void VerDireccionCliente(Cliente cliente)
     {
         Console.WriteLine($"Cliente direccion: {cliente.Direcion1}");
