@@ -210,7 +210,7 @@ namespace EspacioCadeteria
                 Console.WriteLine("Selección inválida. Intente nuevamente.");
             }
 
-            cadeteria.ReasignarPedido(idCadeteActual, idNuevoCadete, nroPedido);
+            cadeteria.ReasignarPedido(idNuevoCadete, nroPedido);
             Console.WriteLine("Pedido reasignado exitosamente. Presione Enter para continuar.");
             Console.ReadLine();
         }
@@ -223,7 +223,11 @@ namespace EspacioCadeteria
                 Console.WriteLine($"Cadete: {cadete.Nombre1}");
                 Console.WriteLine($"Jornal a cobrar: {cadeteria.JornalACobrar(cadete.Id1)}");
                 Console.WriteLine("Pedidos asignados:");
-                foreach (var pedido in cadete.ListadoPedidos1)
+
+                // Filtra los pedidos que están asignados al cadete actual
+                var pedidosAsignados = cadeteria.ListadoPedidos.Where(p => p.Cadete != null && p.Cadete.Id1 == cadete.Id1);
+
+                foreach (var pedido in pedidosAsignados)
                 {
                     Console.WriteLine($"- Pedido N° {pedido.Nro1}, Estado: {pedido.Estado}");
                 }

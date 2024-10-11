@@ -72,16 +72,20 @@ namespace EspacioCadeteria
             return pedidosDelCadete.Count() * 500;
         }
 
-
-        public void ReasignarPedido(Cadete anterior, Cadete nuevo, Pedidos pedido)
+        public void ReasignarPedido(int nuevoIdCadete, int nroPedido)
         {
-            anterior.EliminarPedido(pedido);
-            nuevo.AgregarPedido(pedido);
+            var nuevoCadete = ListadoCadetes.FirstOrDefault(c => c.Id1 == nuevoIdCadete);
+            var pedido = ListadoPedidos.FirstOrDefault(p => p.Nro1 == nroPedido);
+
+            if (nuevoCadete != null && pedido != null)
+            {
+                pedido.asignarCadete(nuevoCadete);
+            }
         }
 
         public void AgregarCadete(int idCadete, string nombre, string direccion, string telefono)
         {
-            var nuevoCadete = new Cadete(idCadete, nombre,direccion, telefono);
+            var nuevoCadete = new Cadete(idCadete, nombre, direccion, telefono);
             ListadoCadetes.Add(nuevoCadete);
         }
 
@@ -93,6 +97,6 @@ namespace EspacioCadeteria
                 ListadoCadetes.Remove(cadete);
             }
         }
-        
+
     }
 }
